@@ -1,0 +1,85 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Baloo Tammudu 2", cursive, sans-serif;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0326c0, #507ec9);
+}
+
+.login {
+  width: 350px;
+  height: 480px;
+  background: #f1f1f1;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.containerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #a0890b, #f3ec8e);
+}
+
+.logo img {
+  width: 100px;
+}
+
+.loginInputs {
+  height: 60%;
+}
+
+form input {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  margin-top: -10px;
+  background: #c7b86444;
+}
+
+form button {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  background: linear-gradient(to top, #a0890b, #f3ec8e);
+  cursor: pointer;
+}
+
+.suggestion {
+  text-align: center;
+}
+
+.suggestion a {
+  text-decoration: none;
+  color: #0326c0;
+}
+
+/*# sourceMappingURL=style.css.map */
